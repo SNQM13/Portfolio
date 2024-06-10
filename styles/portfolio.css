@@ -1,0 +1,39 @@
+.Portfolio {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.swiper {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.swiper-slide img {
+  height: 300px;
+  width: 700px;
+  object-fit: cover;
+  z-index: 100;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: burlywood;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: burlywood;
+}

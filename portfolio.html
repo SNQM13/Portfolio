@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/portfolio.css">
+  <link rel="stylesheet" href="styles/contacts.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img src="icons/icon1.jpg" alt="">
+    </div>
+    <div class="right-section">
+      <div><a href="#HOME">HOME</a></div>
+      <div><a href="#ABOUT">ABOUT</a></div>
+      <div><a href="#PORTFOLIO">PORTFOLIO</a></div>
+      <div><a href="#CONTACTS">CONTACTS</a></div>
+    </div>
+  </header>
+
+  <section id="HOME" class="home">
+    <div class="home-container">
+      <div>
+        <img src="images/home-page.jpg" alt="">
+      </div>
+      <div class="intro-resume">
+        <p>Hi there! My name is Samantha and I'm a computer science student.</p>
+        <a href="files/resume_001.pdf" download="Malibiran_Resume"><button>Download Resume</button></a>
+      </div>
+    </div>
+  </section>
+  <section id="ABOUT" class="about">
+    <div class="about-container">
+      <div>
+        <img src="images/profile.jpg" alt="">
+      </div>
+      <div class="about-me">
+        <p class="title">About Me</p>
+        <p>I'm Samantha Nicholai Malibiran, an undergraduate student at the University of Mindanao. I have a
+          foundation in web development with skills in HTML, CSS, and experience working with MySQL databases.
+          <br><br>
+          While my professional focus is on coding, I also have a keen interest in psychology and philosophy. This
+          blend of interests fuels my creativity and problem-solving abilities in all aspects of my life.
+          <br><br>
+          Feel free to connect with me and explore my work!
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="PORTFOLIO" class="Portfolio">
+    <hr>
+    <div class="container">
+      <p>Portfolio</p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><a href="https://snqm13.github.io/YouTube-Clone/final-project/youtube.html"
+              target="_blank"><img src="images/youtube-clone.png" alt=""></a></div>
+          <div class="swiper-slide"><img src="images/sample2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/sample3.jpg" alt=""></div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+    <hr>
+  </section>
+  <footer id="CONTACTS" class="contact">
+    <div class="title-container">
+      <p class="title">Contacts</p>
+    </div>
+    <div class="contact-container">
+      <div class="div1">
+        <div class="div2">
+          <img class="icon" src="icons/email.png" alt="">
+          <p class="sub-title">E-mail</p>
+        </div>
+        <p>sam.malibiran@gmail.com</p>
+      </div>
+      <div class="div1">
+        <div class="div2">
+          <img class="icon" src="icons/telephone.jpg" alt="">
+          <p class="sub-title">Phone number</p>
+        </div>
+        <p>0977-272-5054</p>
+      </div>
+      <div class="div1">
+        <div class="div2">
+          <img class="icon" src="icons/connect.jpg" alt="">
+          <p class="sub-title">Connect with me</p>
+        </div>
+        <div class="div3">
+          <a href="https://www.facebook.com/samantha.malibiran.9" target="_blank"><img src="icons/facebook.jpg"
+              alt=""></a>
+          <a href="https://www.linkedin.com/in/snqm" target="_blank"><img src="icons/linkedin.jpg" alt=""></a>
+          <a href="https://github.com/snqm13" target="_blank"><img src="icons/github.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+
+</html>

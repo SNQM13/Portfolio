@@ -1,0 +1,31 @@
+.about {
+  margin: 20px;
+}
+
+.about-container {
+  background-color: rgb(181, 158, 127);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.about-container img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 300px;
+  margin: 30px 100px;
+}
+
+.about-me {
+  padding: 0px 25px;
+  width: 450px;
+}
+
+.about-me .title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}

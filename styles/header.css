@@ -1,0 +1,40 @@
+.header {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0px 10px;
+  border: 1px solid gray;
+
+  z-index: 50;
+}
+
+.left-section img {
+  height: 40px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-section div {
+  margin: 0px 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(181, 158, 127);
+}

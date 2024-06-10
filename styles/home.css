@@ -1,0 +1,43 @@
+.home {
+  margin: 50px 20px 20px 20px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container img {
+  height: 500px;
+  margin: 20px
+}
+
+.intro-resume {
+  padding-left: 50px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-container p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.home-container button {
+  background-color: burlywood;
+  color: black;
+  font-weight: bolder;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+:active button {
+  background-color: whitesmoke;
+}
