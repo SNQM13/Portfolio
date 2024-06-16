@@ -1,5 +1,7 @@
 .Portfolio {
   margin: 20px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
 }
 
 .container {
@@ -15,16 +17,16 @@
 }
 
 .swiper {
-  width: 700px;
-  height: 350px;
+  width: 1000px;
+  height: 500px;
   display: flex;
   align-items: center;
   margin: 10px 0px;
 }
 
 .swiper-slide img {
-  height: 300px;
-  width: 700px;
+  height: 450px;
+  width: 1000px;
   object-fit: contain;
   z-index: 100;
 }
